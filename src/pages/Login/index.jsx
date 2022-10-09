@@ -3,15 +3,14 @@ import { useDispatch } from "react-redux";
 
 import { Title, Paragraph } from "./styled";
 import { Container } from "../../styles/global";
+import * as exampleActions from '../../store/modules/example/actions'
 
 function Login() {
     const dispatch = useDispatch()
     const handleClick = (event) => {
         event.preventDefault()
 
-        dispatch({
-            type: 'CLICKED_BUTTON'
-        })
+        dispatch(exampleActions.clickedButton())
     }
     return (
         <Container>
