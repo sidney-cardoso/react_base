@@ -8,7 +8,7 @@ import Page404 from '../pages/404'
 export default () => {
     return (
         <Switch>
-            <MyRoute path='/' exact component={Login} isClosed/>
+            <MyRoute path='/' exact component={Login} />
             <MyRoute path='*' component={Page404} />
         </Switch>
     )
