@@ -11,7 +11,7 @@ export default createGlobalStyle`
     body {
         font-family: 'Work Sans', sans-serif;
         background-color: ${primaryDarkColor};
-        color: ${primaryColorgit}
+        color: ${primaryColor}
     }
     html, body, #root {
         height: 100%;
