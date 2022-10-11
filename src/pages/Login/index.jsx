@@ -10,7 +10,7 @@ function Login() {
     const handleClick = (event) => {
         event.preventDefault()
 
-        dispatch(exampleActions.clickedButton())
+        dispatch(exampleActions.requestClickedButton())
     }
     return (
         <Container>
