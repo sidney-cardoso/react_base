@@ -5,10 +5,10 @@ import * as actions from "./actions";
 import * as types from "../types";
 
 const request = () => {
-  new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve();
-    }, 2000);
+    }, 600);
   });
 };
 function* exampleRequest() {
